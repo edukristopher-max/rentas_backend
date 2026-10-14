@@ -1,0 +1,54 @@
+## ==========================================
+## .NET / ASP.NET Core .gitignore
+## ==========================================
+
+# Carpetas de compilación y binarios
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Publicaciones
+[Pp]ublish/
+publish/
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Archivos sensibles, notas y credenciales locales
+cadena.txt
+*.local.json
+appsettings.local.json
+appsettings.Production.json
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Archivos de volcado y depuración (Crash dumps)
+*.dmp
+*.dump
+*.crash
+
+# Archivos del Sistema Operativo
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Archivos temporales y de respaldo
+*.swp
+*~
+*.tmp
+*.bak
