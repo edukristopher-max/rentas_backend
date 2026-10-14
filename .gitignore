@@ -11,6 +11,8 @@
 # Publicaciones
 [Pp]ublish/
 publish/
+[Oo]ut/
+out/
 
 # Visual Studio / Visual Studio Code
 .vs/
